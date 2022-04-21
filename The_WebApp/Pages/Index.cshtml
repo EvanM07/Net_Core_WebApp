@@ -5,6 +5,11 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Welcome, here is the date and time.</h1>
 </div>
+
+@{ var Ctime = DateTime.Now;}
+
+<h2 id="words">
+    @Ctime
+</h2> 
